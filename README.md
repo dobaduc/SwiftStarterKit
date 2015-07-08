@@ -1,5 +1,5 @@
 # SwiftStarterKit
-This project include many examples of Swift syntax to help begginers to get started with Swift easier.
+This project include many examples of Swift syntax to help beginners to get started with Swift easier.
 
 How to test
 ============
