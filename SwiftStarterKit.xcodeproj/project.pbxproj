@@ -20,9 +20,7 @@
 		6E1E39E31B4D3556008CC14E /* PropertiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39D91B4D3556008CC14E /* PropertiesTests.swift */; };
 		6E1E39E41B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */; };
 		6E1E39E51B4D3556008CC14E /* OtherSwiftSyntaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */; };
-		6E1E39E61B4D3556008CC14E /* LiteralConvertiblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DC1B4D3556008CC14E /* LiteralConvertiblesTests.swift */; };
 		6E1E39E71B4D3556008CC14E /* TypeInferrenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */; };
-		6E1E39E81B4D3556008CC14E /* DobbyMockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DE1B4D3556008CC14E /* DobbyMockingTests.swift */; };
 		6E1E39EA1B4D3681008CC14E /* TesClassCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,12 +54,8 @@
 		6E1E39D91B4D3556008CC14E /* PropertiesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesTests.swift; sourceTree = "<group>"; };
 		6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterTypeAndReturnTypeTests.swift; sourceTree = "<group>"; };
 		6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherSwiftSyntaxTests.swift; sourceTree = "<group>"; };
-		6E1E39DC1B4D3556008CC14E /* LiteralConvertiblesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralConvertiblesTests.swift; sourceTree = "<group>"; };
 		6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeInferrenceTests.swift; sourceTree = "<group>"; };
-		6E1E39DE1B4D3556008CC14E /* DobbyMockingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DobbyMockingTests.swift; sourceTree = "<group>"; };
 		6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesClassCollection.swift; sourceTree = "<group>"; };
-		D285396D61B414258D4E263F /* Pods-SwiftStarterKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStarterKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStarterKitTests/Pods-SwiftStarterKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		DA95E769B7B9A3BB000F5DF5 /* Pods-SwiftStarterKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStarterKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStarterKitTests/Pods-SwiftStarterKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +90,6 @@
 				6E1E39A91B4D346B008CC14E /* SwiftStarterKit */,
 				6E1E39BF1B4D346B008CC14E /* SwiftStarterKitTests */,
 				6E1E39A81B4D346B008CC14E /* Products */,
-				C8B439E2740EDD404D008EDC /* Pods */,
 				222D672CC2BA0BAC224710A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -169,20 +162,9 @@
 				6E1E39D91B4D3556008CC14E /* PropertiesTests.swift */,
 				6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */,
 				6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */,
-				6E1E39DC1B4D3556008CC14E /* LiteralConvertiblesTests.swift */,
 				6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */,
-				6E1E39DE1B4D3556008CC14E /* DobbyMockingTests.swift */,
 			);
 			name = Swift;
-			sourceTree = "<group>";
-		};
-		C8B439E2740EDD404D008EDC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DA95E769B7B9A3BB000F5DF5 /* Pods-SwiftStarterKitTests.debug.xcconfig */,
-				D285396D61B414258D4E263F /* Pods-SwiftStarterKitTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E1E39E71B4D3556008CC14E /* TypeInferrenceTests.swift in Sources */,
-				6E1E39E61B4D3556008CC14E /* LiteralConvertiblesTests.swift in Sources */,
-				6E1E39E81B4D3556008CC14E /* DobbyMockingTests.swift in Sources */,
 				6E1E39E31B4D3556008CC14E /* PropertiesTests.swift in Sources */,
 				6E1E39C31B4D346B008CC14E /* SwiftStarterKitTests.swift in Sources */,
 				6E1E39E21B4D3556008CC14E /* OperatorFunctionTests.swift in Sources */,
