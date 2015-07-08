@@ -13,6 +13,17 @@
 		6E1E39B41B4D346B008CC14E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1E39B31B4D346B008CC14E /* Images.xcassets */; };
 		6E1E39B71B4D346B008CC14E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1E39B51B4D346B008CC14E /* LaunchScreen.xib */; };
 		6E1E39C31B4D346B008CC14E /* SwiftStarterKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39C21B4D346B008CC14E /* SwiftStarterKitTests.swift */; };
+		6E1E39DF1B4D3556008CC14E /* ClosureSyntaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39D51B4D3556008CC14E /* ClosureSyntaxTests.swift */; };
+		6E1E39E01B4D3556008CC14E /* GenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39D61B4D3556008CC14E /* GenericsTests.swift */; };
+		6E1E39E11B4D3556008CC14E /* SwiftReferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39D71B4D3556008CC14E /* SwiftReferenceTests.swift */; };
+		6E1E39E21B4D3556008CC14E /* OperatorFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39D81B4D3556008CC14E /* OperatorFunctionTests.swift */; };
+		6E1E39E31B4D3556008CC14E /* PropertiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39D91B4D3556008CC14E /* PropertiesTests.swift */; };
+		6E1E39E41B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */; };
+		6E1E39E51B4D3556008CC14E /* OtherSwiftSyntaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */; };
+		6E1E39E61B4D3556008CC14E /* LiteralConvertiblesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DC1B4D3556008CC14E /* LiteralConvertiblesTests.swift */; };
+		6E1E39E71B4D3556008CC14E /* TypeInferrenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */; };
+		6E1E39E81B4D3556008CC14E /* DobbyMockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DE1B4D3556008CC14E /* DobbyMockingTests.swift */; };
+		6E1E39EA1B4D3681008CC14E /* TesClassCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67752242159115B92BBAD1D7 /* libPods-SwiftStarterKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftStarterKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1E39A71B4D346B008CC14E /* SwiftStarterKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStarterKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1E39AB1B4D346B008CC14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E1E39AC1B4D346B008CC14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +48,20 @@
 		6E1E39BC1B4D346B008CC14E /* SwiftStarterKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStarterKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1E39C11B4D346B008CC14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E1E39C21B4D346B008CC14E /* SwiftStarterKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStarterKitTests.swift; sourceTree = "<group>"; };
+		6E1E39CD1B4D3530008CC14E /* SwiftStarterKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftStarterKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E1E39D51B4D3556008CC14E /* ClosureSyntaxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSyntaxTests.swift; sourceTree = "<group>"; };
+		6E1E39D61B4D3556008CC14E /* GenericsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsTests.swift; sourceTree = "<group>"; };
+		6E1E39D71B4D3556008CC14E /* SwiftReferenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftReferenceTests.swift; sourceTree = "<group>"; };
+		6E1E39D81B4D3556008CC14E /* OperatorFunctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorFunctionTests.swift; sourceTree = "<group>"; };
+		6E1E39D91B4D3556008CC14E /* PropertiesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesTests.swift; sourceTree = "<group>"; };
+		6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterTypeAndReturnTypeTests.swift; sourceTree = "<group>"; };
+		6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherSwiftSyntaxTests.swift; sourceTree = "<group>"; };
+		6E1E39DC1B4D3556008CC14E /* LiteralConvertiblesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteralConvertiblesTests.swift; sourceTree = "<group>"; };
+		6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeInferrenceTests.swift; sourceTree = "<group>"; };
+		6E1E39DE1B4D3556008CC14E /* DobbyMockingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DobbyMockingTests.swift; sourceTree = "<group>"; };
+		6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesClassCollection.swift; sourceTree = "<group>"; };
+		D285396D61B414258D4E263F /* Pods-SwiftStarterKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStarterKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStarterKitTests/Pods-SwiftStarterKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA95E769B7B9A3BB000F5DF5 /* Pods-SwiftStarterKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStarterKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftStarterKitTests/Pods-SwiftStarterKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222D672CC2BA0BAC224710A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67752242159115B92BBAD1D7 /* libPods-SwiftStarterKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E1E399E1B4D346B008CC14E = {
 			isa = PBXGroup;
 			children = (
 				6E1E39A91B4D346B008CC14E /* SwiftStarterKit */,
 				6E1E39BF1B4D346B008CC14E /* SwiftStarterKitTests */,
 				6E1E39A81B4D346B008CC14E /* Products */,
+				C8B439E2740EDD404D008EDC /* Pods */,
+				222D672CC2BA0BAC224710A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +113,7 @@
 		6E1E39A91B4D346B008CC14E /* SwiftStarterKit */ = {
 			isa = PBXGroup;
 			children = (
+				6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */,
 				6E1E39AC1B4D346B008CC14E /* AppDelegate.swift */,
 				6E1E39AE1B4D346B008CC14E /* ViewController.swift */,
 				6E1E39B01B4D346B008CC14E /* Main.storyboard */,
@@ -98,6 +135,8 @@
 		6E1E39BF1B4D346B008CC14E /* SwiftStarterKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				6E1E39D41B4D3548008CC14E /* Swift */,
+				6E1E39CC1B4D351B008CC14E /* TestFrameworks */,
 				6E1E39C21B4D346B008CC14E /* SwiftStarterKitTests.swift */,
 				6E1E39C01B4D346B008CC14E /* Supporting Files */,
 			);
@@ -110,6 +149,40 @@
 				6E1E39C11B4D346B008CC14E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E1E39CC1B4D351B008CC14E /* TestFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E39CD1B4D3530008CC14E /* SwiftStarterKitTests-Bridging-Header.h */,
+			);
+			name = TestFrameworks;
+			sourceTree = "<group>";
+		};
+		6E1E39D41B4D3548008CC14E /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E39D51B4D3556008CC14E /* ClosureSyntaxTests.swift */,
+				6E1E39D61B4D3556008CC14E /* GenericsTests.swift */,
+				6E1E39D71B4D3556008CC14E /* SwiftReferenceTests.swift */,
+				6E1E39D81B4D3556008CC14E /* OperatorFunctionTests.swift */,
+				6E1E39D91B4D3556008CC14E /* PropertiesTests.swift */,
+				6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */,
+				6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */,
+				6E1E39DC1B4D3556008CC14E /* LiteralConvertiblesTests.swift */,
+				6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */,
+				6E1E39DE1B4D3556008CC14E /* DobbyMockingTests.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		C8B439E2740EDD404D008EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA95E769B7B9A3BB000F5DF5 /* Pods-SwiftStarterKitTests.debug.xcconfig */,
+				D285396D61B414258D4E263F /* Pods-SwiftStarterKitTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +287,7 @@
 			files = (
 				6E1E39AF1B4D346B008CC14E /* ViewController.swift in Sources */,
 				6E1E39AD1B4D346B008CC14E /* AppDelegate.swift in Sources */,
+				6E1E39EA1B4D3681008CC14E /* TesClassCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E1E39E71B4D3556008CC14E /* TypeInferrenceTests.swift in Sources */,
+				6E1E39E61B4D3556008CC14E /* LiteralConvertiblesTests.swift in Sources */,
+				6E1E39E81B4D3556008CC14E /* DobbyMockingTests.swift in Sources */,
+				6E1E39E31B4D3556008CC14E /* PropertiesTests.swift in Sources */,
 				6E1E39C31B4D346B008CC14E /* SwiftStarterKitTests.swift in Sources */,
+				6E1E39E21B4D3556008CC14E /* OperatorFunctionTests.swift in Sources */,
+				6E1E39E01B4D3556008CC14E /* GenericsTests.swift in Sources */,
+				6E1E39DF1B4D3556008CC14E /* ClosureSyntaxTests.swift in Sources */,
+				6E1E39E51B4D3556008CC14E /* OtherSwiftSyntaxTests.swift in Sources */,
+				6E1E39E11B4D3556008CC14E /* SwiftReferenceTests.swift in Sources */,
+				6E1E39E41B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +456,8 @@
 				INFOPLIST_FILE = SwiftStarterKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftStarterKitTests/SwiftStarterKitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftStarterKit.app/SwiftStarterKit";
 			};
 			name = Debug;
@@ -379,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +474,7 @@
 				INFOPLIST_FILE = SwiftStarterKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftStarterKitTests/SwiftStarterKitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftStarterKit.app/SwiftStarterKit";
 			};
 			name = Release;
@@ -409,6 +498,7 @@
 				6E1E39C81B4D346B008CC14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E1E39C91B4D346B008CC14E /* Build configuration list for PBXNativeTarget "SwiftStarterKitTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +507,7 @@
 				6E1E39CB1B4D346B008CC14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

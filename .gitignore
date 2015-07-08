@@ -1,0 +1,9 @@
+# regular
+.DS_store
+*xcuserdata
+*.xcworkspacedata
+*Thumbs.db
+Pods
+*.xcuserstate
+*.xccheckout
+Carthage
