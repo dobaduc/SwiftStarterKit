@@ -22,6 +22,7 @@
 		6E1E39E51B4D3556008CC14E /* OtherSwiftSyntaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */; };
 		6E1E39E71B4D3556008CC14E /* TypeInferrenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */; };
 		6E1E39EA1B4D3681008CC14E /* TesClassCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */; };
+		6E217D751B4E2D370045C2EA /* JSONDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D741B4E2D370045C2EA /* JSONDecoderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherSwiftSyntaxTests.swift; sourceTree = "<group>"; };
 		6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeInferrenceTests.swift; sourceTree = "<group>"; };
 		6E1E39E91B4D3681008CC14E /* TesClassCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesClassCollection.swift; sourceTree = "<group>"; };
+		6E217D741B4E2D370045C2EA /* JSONDecoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				6E1E39DA1B4D3556008CC14E /* ParameterTypeAndReturnTypeTests.swift */,
 				6E1E39DB1B4D3556008CC14E /* OtherSwiftSyntaxTests.swift */,
 				6E1E39DD1B4D3556008CC14E /* TypeInferrenceTests.swift */,
+				6E217D741B4E2D370045C2EA /* JSONDecoderTests.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 		6E1E399F1B4D346B008CC14E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Doba Duc";
 				TargetAttributes = {
@@ -277,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E217D751B4E2D370045C2EA /* JSONDecoderTests.swift in Sources */,
 				6E1E39E71B4D3556008CC14E /* TypeInferrenceTests.swift in Sources */,
 				6E1E39E31B4D3556008CC14E /* PropertiesTests.swift in Sources */,
 				6E1E39C31B4D346B008CC14E /* SwiftStarterKitTests.swift in Sources */,

@@ -51,6 +51,7 @@ class TypeInferrenceTests: XCTestCase {
         ]
 
         var arrayTypeString: String = "\(library.dynamicType)"
+
         XCTAssert(arrayTypeString == "Swift.Array<SwiftStarterKitTests.TypeInferrenceTests.Song>", "Array item should be inferred to be `Song`")
     }
 

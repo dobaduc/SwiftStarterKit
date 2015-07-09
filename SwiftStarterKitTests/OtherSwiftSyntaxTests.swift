@@ -47,7 +47,17 @@ class OtherSwiftSyntaxTests: XCTestCase {
         XCTAssertNil(numberFromString , "Failed")
     }
 
-    func testSwiftForFun() {
+    func testAutoClosure() {
 
+        func isEmpty(tester: () -> Bool) -> String {
+            return tester() ? "TRUE" : "FALSE"
+        }
+
+        func isEmptyWithAutoClosure(@autoclosure tester: () -> Bool) -> String {
+            return tester() ? "TRUE" : "FALSE"
+        }
+
+        XCTAssert(isEmpty({ 2 > 1}) == "TRUE", "Wrong result")
+        XCTAssert(isEmptyWithAutoClosure( 3 > 5) == "FALSE", "Wrong result")
     }
 }
