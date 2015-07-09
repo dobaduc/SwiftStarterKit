@@ -1,8 +1,8 @@
-# SwiftStarterKit [![Build Status](https://travis-ci.org/dobaduc/SwiftStarterKit.svg?branch=master)](https://travis-ci.org/dobaduc/SwiftStarterKit)
+# SwiftStarterKit
 This project include many examples of Swift syntax to help beginners to get started with Swift easier.
 
 How to test
 ============
 - Clone this repo to you local machine
-- Open **SwiftStarterKit.xcodeproj** using Xcode 6.3.* (Currently this project doesn't support Swift 2.0)
+- Open **SwiftStarterKit.xcodeproj** using Xcode 6.3.*
 - Press Command + U to execute available test cases
