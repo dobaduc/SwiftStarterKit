@@ -1,6 +1,6 @@
 //
 //  ServerConnection.swift
-//  TestFrameworkDemos-Swift
+//  SwiftStarterKit
 //
 //  Created by Doba Duc on 6/30/15.
 //  Copyright (c) 2015 Doba Duc. All rights reserved.

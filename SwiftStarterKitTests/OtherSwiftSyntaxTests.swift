@@ -1,6 +1,6 @@
 //
 //  OtherSwiftSyntaxTests.swift
-//  TestFrameworkDemos-Swift
+//  SwiftStarterKit
 //
 //  Created by Doba Duc on 7/7/15.
 //  Copyright (c) 2015 Doba Duc. All rights reserved.
@@ -47,11 +47,7 @@ class OtherSwiftSyntaxTests: XCTestCase {
         XCTAssertNil(numberFromString , "Failed")
     }
 
-    // MARK:- Others
     func testSwiftForFun() {
-//        func sum(a: Int)(b: Int){
-//            return (b: Int)
-//        }
 
     }
 }

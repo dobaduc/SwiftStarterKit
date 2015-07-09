@@ -1,6 +1,6 @@
 //
 //  ClosureSyntaxTests.swift
-//  TestFrameworkDemos-SwiftTests
+//  SwiftStarterKit
 //
 //  Created by Doba Duc on 6/29/15.
 //  Copyright (c) 2015 Doba Duc. All rights reserved.
